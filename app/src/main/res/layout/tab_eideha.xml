@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="60dp"
+	 android:paddingTop="0dip"
+	android:layout_gravity="top"
+   >
+  <TableRow android:layout_height="40dp"
+	  android:layout_width="match_parent">
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    xmlns:tools="http://schemas.android.com/tools"
+		    android:layout_width="40dp"
+		    android:layout_height="match_parent"
+		    android:paddingLeft="10dp"
+		    android:paddingTop="5dp"
+		    android:paddingBottom="5dp"
+		    >
+
+		  <TextView
+			  android:id="@+id/textView_radif"
+			  android:layout_height="wrap_content"
+			  android:layout_width="wrap_content"
+			  android:layout_weight="1"
+			  android:layout_gravity="left|center_vertical"
+			  android:textSize="12sp"
+			  android:layout_marginLeft="5dp"
+			  android:layout_marginTop="3dp"
+			  android:textColor="#000000"
+			  android:layout_span="1"
+			  android:text="01"
+			  android:layout_marginRight="5dp" />
+
+	  </LinearLayout>
+
+	  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		  xmlns:tools="http://schemas.android.com/tools"
+		  android:layout_width="150dp"
+		  android:layout_height="match_parent"
+		  android:paddingLeft="10dp"
+		  android:paddingTop="5dp"
+		  android:paddingBottom="5dp" >
+
+		  <TextView
+			  android:id="@+id/textView_eide"
+			  android:layout_height="match_parent"
+			  android:layout_width="wrap_content"
+			  android:layout_weight="1"
+			  android:layout_gravity="left|center_vertical"
+			  android:textSize="10sp"
+			  android:layout_marginLeft="5dp"
+			  android:layout_marginTop="3dp"
+			  android:textColor="#000000"
+			  android:layout_span="1"
+			  android:text="ملاک"
+			  android:layout_marginRight="5dp" />
+	  </LinearLayout>
+
+	  <LinearLayout
+		  android:orientation="horizontal"
+		  android:layout_width="30dp"
+		  android:layout_height="match_parent">
+
+		  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:paddingTop="0dip" android:layout_gravity="top"
+          >
+          <TableRow android:layout_height="30dp">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="30dp"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text=" "
+                  android:id="@+id/textView2" />
+          </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="0.0002"
+                    android:id="@+id/textView_Zarib"
+                    android:textSize="9dp" />
+            </TableRow>
+          </TableLayout>
+	  </LinearLayout>
+
+  </TableRow>
+
+
+</TableLayout>
